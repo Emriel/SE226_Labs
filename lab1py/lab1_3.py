@@ -1,0 +1,10 @@
+name = input('Enter your name = ')
+lab = int(input('Enter lab result = '))
+midterm = int(input('Enter midterm result = '))
+final = int(input('Enter final result = '))
+lastScore = lab * 25/100 + midterm *35/100 + final * 40/100
+print('Name: ' + name)
+print('Lab: ' + str(lab))
+print('Midterm: ' + str(midterm))
+print('Final: ' + str(final))
+print('Last Score: ' + str(lastScore))
